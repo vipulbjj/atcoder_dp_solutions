@@ -28,6 +28,11 @@ void dfs(int u, int par);
 
 const int mod = 1'000'000'007;
 const int N = 3e5, M = N;
+
+struct treenode{
+    treenode* parent=NULL;
+    vector<treenode*> children;
+};
 //=======================
 
 vi g[N];
