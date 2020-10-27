@@ -26,6 +26,7 @@ string minWindow(string s, string t) {
 				counter++;
 			start++;
 		}
+		//in case of max, check here. length = end - begin only
 	}
 	if (minLen != INT_MAX)
 		return s.substr(minStart, minLen);
